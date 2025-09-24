@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "canonical_name": "Barbell Bench Press",
+    "nicknames": ["Bench Press", "BB Bench"],
+    "nickname_regex": "(barbel[l]? |bb )?bench[ ]?press[:]?",
+    "primary_muscles": ["chest"],
+    "secondary_muscles": ["triceps", "front_delts"]
+  },
+  {
+    "id": 2,
+    "canonical_name": "Machine Assisted Pullup",
+    "nicknames": ["Assisted Pullup", "Pullup", "Pull up"],
+    "nickname_regex": "(machine )?(assisted )?pull[ -]?up[:]?",
+    "primary_muscles": ["lats"],
+    "secondary_muscles": ["biceps", "forearms", "midback"]
+  },
+  {
+    "id": 3,
+    "canonical_name": "Assisted Dips",
+    "nicknames": [""],
+    "nickname_regex": "(machine )?(assisted )?dips",
+    "primary_muscles": ["chest", "lower_chest"],
+    "secondary_muscles": ["triceps", "front_delts"]
+  },
+  {
+    "id": 4,
+    "canonical_name": "Machine Rows",
+    "nicknames": [""],
+    "nickname_regex": "(seated )?(machine )?(row[s]?)",
+    "primary_muscles": ["lats", "midback"],
+    "secondary_muscles": ["biceps", "forearms", "rear_delts"]
+  },
+  {
+    "id": 5,
+    "canonical_name": "Overhead Press",
+    "nicknames": ["Shoulder Press", "Military Press"],
+    "nickname_regex": "(seated |standing )?(military |shoulder |overhead )press",
+    "primary_muscles": ["front_delts"],
+    "secondary_muscles": ["triceps"]
+  }
+]
